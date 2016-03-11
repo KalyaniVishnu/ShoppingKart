@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart", "ShoppingKart\ShoppingKart.csproj", "{E9AC0C51-D5E7-4E6F-B781-E4512060E0A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.Repository.Interface", "ShoppingKart.Repository.Interface\ShoppingKart.Repository.Interface.csproj", "{66BBFF53-D9C0-48D1-B26B-7FEFAC9B60C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.Repository.Fake", "ShoppingKart.Repository.Fake\ShoppingKart.Repository.Fake.csproj", "{AF91C833-E39C-4E0C-AA94-24244B08A9A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{919E5A33-96C7-4C92-9F98-B058BD2D4966}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.ShoppingBasket.Interface", "ShoppingKart.ShoppingBasket.Interface\ShoppingKart.ShoppingBasket.Interface.csproj", "{BA26850C-A5FC-4239-BC8D-396BA269456A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.Poco", "ShoppingKart.Poco\ShoppingKart.Poco.csproj", "{D703DFCA-5120-4246-BE46-979544B8CAF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.ShoppingBasket.Fake", "ShoppingKart.ShoppingBasket.Fake\ShoppingKart.ShoppingBasket.Fake.csproj", "{ECEFF4BD-7E9A-4F77-A582-115030B65532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.Cashier.Interface", "ShoppingKart.Cashier.Interface\ShoppingKart.Cashier.Interface.csproj", "{7769D249-3622-4082-A97F-96F9DC82E69A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.Cashier.Impl", "ShoppingKart.Cashier.Impl\ShoppingKart.Cashier.Impl.csproj", "{1668F18E-B600-4127-8EA6-C52F7A1E66E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.RuleEngine.Interface", "ShoppingKart.RuleEngine.Interface\ShoppingKart.RuleEngine.Interface.csproj", "{B66B37EE-FF11-4F73-9183-E72069649A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.RuleEngine.Impl", "ShoppingKart.RuleEngine.Impl\ShoppingKart.RuleEngine.Impl.csproj", "{A0100AF8-C473-4921-8F55-91E6BD4B750B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.RuleEngine.Impl.Test", "ShoppingKart.RuleEngine.Impl.Test\ShoppingKart.RuleEngine.Impl.Test.csproj", "{F16134A7-7937-4F46-913F-0C23CAFC9E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingKart.Cashier.Impl.Test", "ShoppingKart.Cashier.Impl.Test\ShoppingKart.Cashier.Impl.Test.csproj", "{2109B06B-A339-43EE-A4CD-C43428AA258C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9AC0C51-D5E7-4E6F-B781-E4512060E0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AC0C51-D5E7-4E6F-B781-E4512060E0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AC0C51-D5E7-4E6F-B781-E4512060E0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AC0C51-D5E7-4E6F-B781-E4512060E0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BBFF53-D9C0-48D1-B26B-7FEFAC9B60C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BBFF53-D9C0-48D1-B26B-7FEFAC9B60C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BBFF53-D9C0-48D1-B26B-7FEFAC9B60C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BBFF53-D9C0-48D1-B26B-7FEFAC9B60C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF91C833-E39C-4E0C-AA94-24244B08A9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF91C833-E39C-4E0C-AA94-24244B08A9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF91C833-E39C-4E0C-AA94-24244B08A9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF91C833-E39C-4E0C-AA94-24244B08A9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA26850C-A5FC-4239-BC8D-396BA269456A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA26850C-A5FC-4239-BC8D-396BA269456A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA26850C-A5FC-4239-BC8D-396BA269456A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA26850C-A5FC-4239-BC8D-396BA269456A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D703DFCA-5120-4246-BE46-979544B8CAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D703DFCA-5120-4246-BE46-979544B8CAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D703DFCA-5120-4246-BE46-979544B8CAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D703DFCA-5120-4246-BE46-979544B8CAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEFF4BD-7E9A-4F77-A582-115030B65532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEFF4BD-7E9A-4F77-A582-115030B65532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEFF4BD-7E9A-4F77-A582-115030B65532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEFF4BD-7E9A-4F77-A582-115030B65532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7769D249-3622-4082-A97F-96F9DC82E69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7769D249-3622-4082-A97F-96F9DC82E69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7769D249-3622-4082-A97F-96F9DC82E69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7769D249-3622-4082-A97F-96F9DC82E69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1668F18E-B600-4127-8EA6-C52F7A1E66E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1668F18E-B600-4127-8EA6-C52F7A1E66E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1668F18E-B600-4127-8EA6-C52F7A1E66E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1668F18E-B600-4127-8EA6-C52F7A1E66E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66B37EE-FF11-4F73-9183-E72069649A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66B37EE-FF11-4F73-9183-E72069649A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66B37EE-FF11-4F73-9183-E72069649A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66B37EE-FF11-4F73-9183-E72069649A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0100AF8-C473-4921-8F55-91E6BD4B750B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0100AF8-C473-4921-8F55-91E6BD4B750B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0100AF8-C473-4921-8F55-91E6BD4B750B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0100AF8-C473-4921-8F55-91E6BD4B750B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16134A7-7937-4F46-913F-0C23CAFC9E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16134A7-7937-4F46-913F-0C23CAFC9E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16134A7-7937-4F46-913F-0C23CAFC9E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16134A7-7937-4F46-913F-0C23CAFC9E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2109B06B-A339-43EE-A4CD-C43428AA258C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2109B06B-A339-43EE-A4CD-C43428AA258C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2109B06B-A339-43EE-A4CD-C43428AA258C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2109B06B-A339-43EE-A4CD-C43428AA258C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
